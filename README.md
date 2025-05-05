@@ -30,9 +30,11 @@ The task was to shift all zeroes to the end of an array while maintaining the or
 Implemented the solution in **C++** and pushed it to `Day02/Move All Zeroes to End.cpp`.  
 ✅ Kept the momentum going — Day 2 complete!
 
+---
+
 ## 📅 Day 03 – May 5, 2025
 Solved the problem "Reverse an Array" from GeeksforGeeks.
 You are given an array of integers arr[]. The task is to reverse the given array in-place.
-Wrote the solution in C and pushed it to Day03/reverse_array.c.
+Wrote the solution in C and pushed it to `Day03/Reverse an Array.c`. 
 ✅ Third day complete — momentum is building!
 
