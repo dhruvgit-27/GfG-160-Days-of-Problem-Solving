@@ -33,8 +33,19 @@ Implemented the solution in **C++** and pushed it to `Day02/Move All Zeroes to E
 ---
 
 ## 📅 Day 03 – May 5, 2025
-Solved the problem "Reverse an Array" from GeeksforGeeks.
-You are given an array of integers arr[]. The task is to reverse the given array in-place.
-Wrote the solution in C and pushed it to `Day03/Reverse an Array.c`. 
+
+Solved the problem **"Reverse an Array"** from GeeksforGeeks.  
+You are given an array of integers `arr[]`. The task is to reverse the given array in-place.  
+Wrote the solution in **C** and pushed it to `Day03/Reverse an Array.c`.  
 ✅ Third day complete — momentum is building!
 
+---
+
+## 📅 Day 04 – May 6, 2025
+
+Solved the problem **"Rotate Array"** from GeeksforGeeks.  
+The task was to rotate the array to the left by a given number of positions.  
+Implemented the solution in **C** and pushed it to `Day04/Rotate Array.c`.  
+✅ Another day, another DSA win — Day 4 complete!
+
+---
