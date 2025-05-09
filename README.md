@@ -1,51 +1,56 @@
 # 🚀 GfG 160 Days of Problem Solving – Summer Challenge
 
-Welcome to my journey of solving **160 coding problems in 160 days**, as part of the official GeeksforGeeks Summer Challenge.
+Welcome to my personal journey through **GeeksforGeeks' 160 Days of Problem Solving** – a challenge where I aim to solve one DSA problem every single day for 160 days straight 🧠💪
 
-Each day, I solve one problem and push the code to this repository — organized into folders like Day01, Day02, and so on.
-
----
-
-## 🔰 What's in this Repo?
-
-- 💡 Daily solved DSA problems from GeeksforGeeks  
-- 💻 Code written in C / C++  
-- ⏳ Challenge Duration: **May 3, 2025 → October 9, 2025**
+This repository is a living archive of my commitment to consistent coding, algorithm practice, and logical thinking.
 
 ---
 
-## 📅 Day 01 – May 3, 2025
+## 📂 Repository Structure
 
-Solved the classic **"Second Largest"** problem from GeeksforGeeks.  
-The goal was to find the second largest element in a given array.  
-Wrote the solution in **C** and pushed it to `Day01/secondlargest.c`.  
-✅ First day done — and we’re off to a strong start!
+Each day's solution is stored in a dedicated folder:
 
----
-
-## 📅 Day 02 – May 4, 2025
-
-Solved the problem **"Move All Zeroes to End"** from GeeksforGeeks.  
-The task was to shift all zeroes to the end of an array while maintaining the order of non-zero elements.  
-Implemented the solution in **C++** and pushed it to `Day02/Move All Zeroes to End.cpp`.  
-✅ Kept the momentum going — Day 2 complete!
+Day01
+Day02
+Day03
+...
+Day160
 
 ---
 
-## 📅 Day 03 – May 5, 2025
-
-Solved the problem **"Reverse an Array"** from GeeksforGeeks.  
-You are given an array of integers `arr[]`. The task is to reverse the given array in-place.  
-Wrote the solution in **C** and pushed it to `Day03/Reverse an Array.c`.  
-✅ Third day complete — momentum is building!
+🗂 Each folder contains:
+- ✅ The problem’s solution in **C or C++**
+- 📝 The filename reflects the problem name
 
 ---
 
-## 📅 Day 04 – May 6, 2025
+## 🎯 Goals
 
-Solved the problem **"Rotate Array"** from GeeksforGeeks.  
-The task was to rotate the array to the left by a given number of positions.  
-Implemented the solution in **C** and pushed it to `Day04/Rotate Array.c`.  
-✅ Another day, another DSA win — Day 4 complete!
+- 🔥 Build the daily habit of problem solving
+- 🚀 Sharpen my grasp over DSA fundamentals
+- ✍️ Write clean, efficient, and readable code
+- 📈 Track growth through consistent Git commits
 
 ---
+
+## 📅 Challenge Timeline
+
+- **Start Date:** May 3, 2025  
+- **End Date:** October 9, 2025  
+- 🕒 160 days. 160 problems. 1 goal: **Consistency!**
+
+---
+
+## ⚙️ Tech Stack
+
+- **Languages:** C / C++  
+- **Platform:** [GeeksforGeeks Practice](https://practice.geeksforgeeks.org/)  
+- **Version Control:** Git + GitHub  
+- **Editor:** VS Code  
+
+---
+
+## 🤝 Let's Connect
+
+Feel free to ⭐ star this repo if you find it inspiring, and don’t hesitate to reach out or share your own challenge!  
+Happy coding! 🙌
