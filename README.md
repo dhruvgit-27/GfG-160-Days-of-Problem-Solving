@@ -34,9 +34,7 @@ Day160
 ---
 
 ## 📅 Challenge Timeline
-
-- **Start Date:** May 3, 2025  
-- **End Date:** October 9, 2025  
+ 
 - 🕒 160 days. 160 problems. 1 goal: **Consistency!**
 
 ---
