@@ -1,0 +1,32 @@
+
+
+
+#include <limits.h>
+// User function Template for C
+
+int kthElement(int *a, int n, int *b, int m, int k) {
+    if (n > m) return kthElement(b, m, a, n, k);
+    
+    int low = (k > m) ? k - m : 0;
+    int high = (k < n) ? k : n;
+    
+    while (low <= high) {
+        int cutA = (low + high) / 2;
+        int cutB = k - cutA;
+        
+        int l1 = (cutA == 0) ? INT_MIN : a[cutA - 1];
+        int l2 = (cutB == 0) ? INT_MIN : b[cutB - 1];
+        int r1 = (cutA == n) ? INT_MAX : a[cutA];
+        int r2 = (cutB == m) ? INT_MAX : b[cutB];
+        
+        if (l1 <= r2 && l2 <= r1)
+            return (l1 > l2) ? l1 : l2;
+        else if (l1 > r2)
+            high = cutA - 1;
+        else 
+            low = cutA + 1;
+    }
+    
+    return -1;
+    
+}
