@@ -1,0 +1,23 @@
+
+
+class Solution {
+  public:
+    long subarrayXor(vector<int> &arr, int k) {
+        unordered_map<int, int> freq;
+        int xorSum = 0;
+        long count = 0;
+        
+        for (int num : arr) {
+            xorSum ^= num;
+            
+            if (xorSum == k)
+                count++;
+            int requiredXor = xorSum ^ k;
+            if (freq.find(requiredXor) != freq.end())
+                count += freq[requiredXor];
+            freq[xorSum]++;
+        }
+        return count;
+        
+    }
+};
