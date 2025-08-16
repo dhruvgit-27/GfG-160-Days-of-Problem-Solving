@@ -1,3 +1,4 @@
+#Solution
 class Solution {
   public:
     int longestUniqueSubstr(string &s) {
