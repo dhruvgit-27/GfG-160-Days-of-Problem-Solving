@@ -1,8 +1,35 @@
-#include <bits/stdc++.h>
+﻿#include <bits/stdc++.h>
 using namespace std;
+
+struct Node {
+    int data;
+    Node* next;
+    Node(int x) : data(x), next(NULL) {}
+};
+
+void removeLoop(Node* head) {
+    Node* slow = head;
+    Node* fast = head;
+    while (fast && fast->next) {
+        slow = slow->next;
+        fast = fast->next->next;
+        if (slow == fast) {
+            slow = head;
+            if (slow == fast) {
+                while (fast->next != slow) fast = fast->next;
+            } else {
+                while (slow->next != fast->next) {
+                    slow = slow->next;
+                    fast = fast->next;
+                }
+            }
+            fast->next = NULL;
+            return;
+        }
+    }
+}
 
 int main() {
     // Problem: Remove loop in Linked List
-    // Your solution code for Day73 goes here
     return 0;
 }
