@@ -1,3 +1,4 @@
+#solution
 class Solution {
   public:
     int maxWater(vector<int> &arr) {
