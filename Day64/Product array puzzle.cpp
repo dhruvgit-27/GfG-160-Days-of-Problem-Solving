@@ -1,5 +1,5 @@
 // User function template for C++
-
+#solution
 class Solution {
   public:
     vector<int> productExceptSelf(vector<int>& arr) {
