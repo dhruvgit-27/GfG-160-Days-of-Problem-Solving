@@ -1,15 +1,3 @@
-/* Link list Node
-struct Node {
-    int data;
-    Node *next;
-    Node *random;
-
-    Node(int x) {
-        data = x;
-        next = NULL;
-        random = NULL;
-    }
-};*/
 
 class Solution {
   public:
