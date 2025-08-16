@@ -1,17 +1,5 @@
-/*
-  Node is defined as
-    struct node
-    {
-        int data;
-        struct Node* next;
+/head;
 
-        Node(int x){
-            data = x;
-            next = NULL;
-        }
-
-    }*head;
-*/
 
 class Solution {
   public:
