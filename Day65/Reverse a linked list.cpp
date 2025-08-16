@@ -1,12 +1,4 @@
-/* Linked List Node structure:
 
-struct Node
-{
-    int data;
-    struct Node *next;
-}
-
-*/
 
 class Solution {
   public:
