@@ -1,3 +1,4 @@
+#solution
 class Solution {
   public:
     // Function to find equilibrium point in the array.
