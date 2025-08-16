@@ -1,4 +1,6 @@
-﻿#include <bits/stdc++.h>
+﻿#solution
+
+#include <bits/stdc++.h>
 using namespace std;
 
 struct Node {
