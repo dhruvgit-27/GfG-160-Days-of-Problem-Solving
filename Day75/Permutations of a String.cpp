@@ -1,4 +1,5 @@
-﻿#include <bits/stdc++.h>
+﻿#solution
+#include <bits/stdc++.h>
 using namespace std;
 
 void permute(string s, int l, int r) {
